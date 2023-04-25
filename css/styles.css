@@ -14,6 +14,7 @@ body {
   --color-btn-clic: #e7e9fc;
   --color-wite: #ffffff;
   --color-header-border: #e7e9fc;
+  --color-hero-background: rgba(46, 47, 66, 0.7);
 }
 
 .list {
@@ -206,13 +207,23 @@ p {
   |============================
 */
 .hero {
-  background-color: var(--color-logo-ligt);
+  background-color: var(--color-hero-background);
 }
 
 .dimensions {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
+.overlay {
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/gero/people-office\ 1.jpg);
+  background-size: cover;
+}
+
 .page-title {
   text-align: center;
   max-width: 496px;
