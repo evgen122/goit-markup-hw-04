@@ -15,6 +15,7 @@ body {
   --color-wite: #ffffff;
   --color-header-border: #e7e9fc;
   --color-hero-background: rgba(46, 47, 66, 0.7);
+  --color-advand-card-background: #f4f4fd;
 }
 
 .list {
@@ -291,6 +292,33 @@ p {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.list-about-item::before {
+  display: block;
+  content: '';
+  height: 112px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--color-advand-card-background);
+  border-radius: 4px;
+}
+
+.icon-strategy::before {
+  background-image: url(../images/advant/antenna\ 1.svg);
+}
+
+.icon-punctuality::before {
+  background-image: url(../images/advant/clock\ 1.svg);
+}
+
+.icon-diligence::before {
+  background-image: url(../images/advant/diagram\ 1.svg);
+}
+
+.icon-technologies::before {
+  background-image: url(../images/advant/astronaut\ 1.svg);
+}
+
 /**
   |============================
   | SECTION_3_WE_DOING
@@ -343,8 +371,8 @@ p {
 .card {
   background-color: var(--color-wite);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .suptitle-col {
@@ -356,8 +384,20 @@ p {
 
 .card-block {
   padding: 32px 16px;
-
   text-align: center;
+}
+
+.card-block::after {
+  display: block;
+  content: '';
+  height: 40px;
+  background-color: rosybrown;
+  background-image: url(../images/icon-social/Ellipse.svg),
+    url(../images/icon-social/Ellipse-1.svg),
+    url(../images/icon-social/Ellipse-2.svg),
+    url(../images/icon-social/Ellipse-3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* ============FUTER================ */
@@ -450,6 +490,11 @@ p {
   padding: 32px 16px;
   border: 1px solid var(--color-header-border);
   border-top: none;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .title-card {
