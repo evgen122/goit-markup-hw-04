@@ -387,7 +387,7 @@ p {
   text-align: center;
 }
 
-.card-block::after {
+/* .card-block::after {
   display: block;
   content: '';
   height: 40px;
@@ -398,7 +398,7 @@ p {
     url(../images/icon-social/Ellipse-3.svg);
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 /* ============FUTER================ */
 .futer {
