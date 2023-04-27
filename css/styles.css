@@ -400,6 +400,10 @@ p {
   background-repeat: no-repeat;
 } */
 
+.card-block-list {
+  display: flex;
+}
+
 /* ============FUTER================ */
 .futer {
   padding: 100px 0;
