@@ -295,6 +295,25 @@ p {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.advantages-icon-area {
+  display: flex;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-advand-card-background);
+  border-radius: 4px;
+}
+
+.advantages-icon {
+  width: 64px;
+  height: 64px;
+  /*   margin-top: 24px;
+  margin-bottom: 24px; */
+  /* justify-content: center;
+  align-items: center; */
+  /*  margin: auto; */
+}
+
 /* .list-about-item::before {
   display: block;
   content: '';
