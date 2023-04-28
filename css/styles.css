@@ -16,6 +16,9 @@ body {
   --color-header-border: #e7e9fc;
   --color-hero-background: rgba(46, 47, 66, 0.7);
   --color-advand-card-background: #f4f4fd;
+  --color-social-icon: #4d5ae5;
+  --color-social-icon-hover1: #404bbf;
+  --color-social-icon-hover2: #31d0aa;
 }
 
 .list {
@@ -292,7 +295,7 @@ p {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-.list-about-item::before {
+/* .list-about-item::before {
   display: block;
   content: '';
   height: 112px;
@@ -301,23 +304,25 @@ p {
 
   background-color: var(--color-advand-card-background);
   border-radius: 4px;
-}
+} */
 
-.icon-strategy::before {
-  background-image: url(../images/advant/antenna\ 1.svg);
+/* .icon-strategy::before {
+  /*  background-image: url(../images/advant/antenna\ 1.svg); 
+background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
 }
+*/
 
-.icon-punctuality::before {
+/* .icon-punctuality::before {
   background-image: url(../images/advant/clock\ 1.svg);
-}
+} */
 
-.icon-diligence::before {
+/* .icon-diligence::before {
   background-image: url(../images/advant/diagram\ 1.svg);
-}
+} */
 
-.icon-technologies::before {
+/* .icon-technologies::before {
   background-image: url(../images/advant/astronaut\ 1.svg);
-}
+} */
 
 /**
   |============================
@@ -400,9 +405,27 @@ p {
   background-repeat: no-repeat;
 } */
 
-/* .card-block-list {
+.card-block-list {
   display: flex;
-} */
+  gap: 24px;
+}
+
+.social-icon-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-social-icon);
+}
+
+.social-icon-button:hover {
+  background-color: var(--color-social-icon-hover1);
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+}
 
 /* ============FUTER================ */
 .futer {
