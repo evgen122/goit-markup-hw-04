@@ -308,11 +308,6 @@ p {
 .advantages-icon {
   width: 64px;
   height: 64px;
-  /*   margin-top: 24px;
-  margin-bottom: 24px; */
-  /* justify-content: center;
-  align-items: center; */
-  /*  margin: auto; */
 }
 
 /* .list-about-item::before {
@@ -500,8 +495,6 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
   border: 1px solid;
   border-color: var(--color-customers-icon);
   border-radius: 4px;
-
-  /* background-color: goldenrod; */
 }
 
 .customers-link:hover {
@@ -539,7 +532,6 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
 
 .footer-social {
   width: 208px;
-  /* height: 80px; */
 }
 
 .footer-social > .text-background-dark {
