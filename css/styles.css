@@ -411,7 +411,7 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
 }
 
 .card-block {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -451,7 +451,8 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
   background-color: var(--color-social-icon);
 }
 
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
   background-color: var(--color-social-icon-hover1);
 }
 
@@ -468,8 +469,8 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
 } */
 
 .social-icon {
-  width: 16px;
-  height: 16px;
+  /*   width: 16px;
+  height: 16px; */
   fill: var(--color-wite);
 }
 
