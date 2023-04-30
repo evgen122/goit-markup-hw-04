@@ -223,7 +223,13 @@ p {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/gero/people-office\ 1.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/gero/people-office\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
