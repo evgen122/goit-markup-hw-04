@@ -471,7 +471,7 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
 .social-icon {
   /*   width: 16px;
   height: 16px; */
-  fill: var(--color-wite);
+  fill: var(--color-logo-dark);
 }
 
 /**
@@ -635,6 +635,8 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
   background-color: var(--color-clic);
   color: var(--color-wite);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /**
@@ -654,7 +656,17 @@ background-image: url(..//images/icon/symbol-defs.svg#icon-antenna);
   width: 360px;
 }
 
-.portfolio-card {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-list-item > .portfolio-card {
   padding: 32px 16px;
   border: 1px solid var(--color-header-border);
   border-top: none;
