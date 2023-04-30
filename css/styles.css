@@ -218,11 +218,6 @@ p {
   background-color: var(--color-hero-background);
 }
 
-.dimensions {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .overlay {
   max-width: 1440px;
   height: 600px;
@@ -230,6 +225,11 @@ p {
   margin-right: auto;
   background-image: url(../images/gero/people-office\ 1.jpg);
   background-size: cover;
+}
+
+.dimensions {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .page-title {
