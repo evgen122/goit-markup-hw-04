@@ -312,11 +312,10 @@ p {
   align-items: center;
   background-color: var(--color-advand-card-background);
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .advantages-icon {
-  width: 64px;
-  height: 64px;
 }
 
 /* .list-about-item::before {
